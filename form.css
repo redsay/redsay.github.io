@@ -1,0 +1,111 @@
+:root{
+    --primary-color:#0a1118;
+    --primary-color-highlight:#233d54;
+    --bs-body-bg: #FBFCF8;
+    /*--bs-body-font-family:"Poppins", sans-serif;*/
+}
+body h3{
+    font-size: 24px;
+}
+body p{
+    font-size: 14px;
+}
+/*
+    @media (min-width:544px) {}
+    @media (min-width:768px) {}
+    @media (min-width:992px) {}
+    @media (min-width:1200px) {}
+    @media (min-width:1400px) {}
+    @media (min-width:1600px) {}
+*/
+
+/* navigation bar */
+#navbar{
+    margin:100px;
+
+}
+.navbar{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    background-color: rgb(255,247,231);
+    z-index:4;
+}
+
+form{
+    --bs-body-bg: #fbfcf8
+}
+body h1{
+    font-family: "Code", sans-serif;
+}
+body h2{
+    font-family: "Code", sans-serif;
+    color:#233d54;
+}
+body h3{
+    font-family: "Code", sans-serif;
+}
+body p{
+    font-family:'Poppins', sans-serif;
+}
+
+.row{
+    padding-top: 4px;
+    padding-bottom:5px;
+}
+#contact{
+    padding-bottom:40px;
+}
+#trip{
+    padding-bottom:20px;
+}
+#trip .row{
+    padding-top:4px;
+    padding-bottom:5px;
+}
+.form-floating{
+    padding-top:4px;
+    padding-bottom:5px;
+}
+#rigSelect{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+#rigSelect p{
+    padding-top: 5px;
+}
+
+#upgrades{
+    padding-bottom:20px;
+}
+#fees{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+img{
+    display:block;
+    height:50%;
+}
+
+.footer .border-highlight{
+    border-top:1px solid var(--primary-color-highlight)
+}
+
+/*custom containter*/
+.custom-container{
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}

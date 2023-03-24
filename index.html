@@ -1,0 +1,425 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <title>RVnB Life LLC</title>
+
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+        <!-- ALERT NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-info text-center py-0">
+            <div class="container justify-content-center">
+                <a href="#" class="navbar-brand fs-6">Book Now for the Upcoming edc Festival. <u>Learn More!</u></a> 
+            </div>
+        </nav> 
+        <!-- END -->
+
+        <!-- MAIN NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3">
+            <!-- Container for the information included in the navbar-->
+            <div class="container">
+                <!-- add branding within container-->
+                <!--<a href="#" class="navbar-brand fs-1">RVnBLife</a> -->
+                <a href="#" class="navbar-brand fs-6">+1 111 222 3333</a>
+                <a href="#" class="navbar-brand fs-6">email@email.com</a>
+                <!-- create a collapsable button which targets our navigationbar -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                <!--adds our hamburger icon for our button-->
+                <span class="navbar-toggler-icon"></span> <!-- toggle the below div-->
+                </button>
+                <!-- provides the ability for the menu to collapse under the breakpoint-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <!-- define navbar navigation list, ms-auto will align these items to the right-->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- define navbar list items-->
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#partner" class="nav-link">Book Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#partner" class="nav-link">Partner with Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="partner" class="nav-link">Upcoming Events</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+        <!-- /NAVBAR -->
+        
+        <!-- SHOWCASE/HERO -->
+        <style>
+            #showcase{
+                background-color: #4F6366;
+            }
+
+            .container  #heroimg{
+                width:100%;
+            }
+
+            .btn{
+                background-color: #99640F;
+                color: white;
+            }
+        </style>
+        <section id="showcase" class="text-light p-5 text-center text-sm-start">
+            <!-- define container so content isn't pushed up -->
+            <div class="container">
+            <!-- define two flex item alighned side by side, div and img. sm breakpoint is added.-->
+                <div class="d-lg-flex align-items-center justify-content-between mx-auto">
+                    <!-- our div has a header and paragraph and button-->
+
+                    <!-- this is our image bound inside of its container images doesnt show at small breakpoint-->
+                    <img id="heroimg" class="img-fluid d-none d-lg-block mx-left" src="img/hero.png" alt="">
+                    <div>
+                        <!--<h1>Start your <span class="text-warning">adventure with RVnBLife</span>.</h1>-->
+                        <h1 class="text-end mx-5">Adventure</h1>
+                        <h1 class="text-end mx-5">With</h1>
+                        <h1 class="text-end mx-5">  <span class="text-warning"> RVnBLife</span>.</h1>
+            
+                        <!-- blue button bgger than default-->
+                        <div class="text-end m-5">
+                            <button class="btn  btn-lg ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END SHOWCASE -->
+
+        <!-- CONFIDENCE -->
+        <style>
+            #about{
+                height:400px;
+                width: 1800px;
+            }
+            #abox{
+                position:absolute;
+                height: 400px;
+                width: 1800px;
+                background-color:#B3A69B;
+                opacity: 33%;
+            }
+            .text-warning{
+                font-size: 55px;
+                font-family: 'Poppins';
+            }
+            .lead{
+                font-size: 30px;
+                font-family: 'Poppins';
+            }
+            h1{
+                padding:10px;
+            }
+            button{
+                padding:40px;
+            }
+        </style>
+
+        <div class="float-left" id="abox"></div>
+        <section id="about" class="p-5 bg-light text-dark">
+            <div class="container">
+                <div class="row  align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <div>
+                            <h2><span class="text-warning" >Book with Confidence</span></h2>
+                            <p class="lead">
+                                No uncertainties or inconsistencies with private RV owners.  RVnBLife provides full quality control, with the highest standards in customer experience, so you can plan your trip with absolute confidence and peace of mind.
+                            </p>
+  
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        <!-- END CONFIDENCE-->
+
+        <!--CAROUSEL-->
+        <style>
+            .carousel-item{
+                height:60rem;
+                background-color:#E1DEDB;
+            }
+            #carouselContainer.container {
+                position:absolute;
+                bottom:0;
+                left:0;
+                right:0;
+                padding: 50px;
+            }
+            .carousel-inner #carouselContainer img {
+                width:1031px;
+                height: 700px;
+            }
+            .carousel-caption{
+                background-color: whitesmoke;
+                color: black;
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;
+            }
+            #carouselCaptionContainer.carousel-caption {
+                width: 500px;
+                top: 10% !important;
+                transform: translateX(-40%);
+                text-align: left;
+                bottom: initial;
+                padding: 10px;
+            }
+            .text-warning{
+                font-size: 55px;
+                font-family: 'Poppins';
+            }
+            .lead{
+                font-size: 30px;
+                font-family: 'Poppins';
+                
+            }
+            #abox2{
+                position:absolute;
+                height: 500px;
+                width: 500px;
+                left: 19.5%;
+                top: 11% !important;
+                background-color: whitesmoke;
+                color: black;
+                border-width: 1px;
+                border-color: black;
+                border-style: solid;                
+                transform: translateX(-40%);
+                text-align: left;
+                bottom: initial;
+                padding: 10px;
+            }
+        
+            #reviewBtn{
+                position:absolute;
+                left: 47%;
+                top: 3% !important;
+            }
+        </style>
+        
+        <div class="mainCarousel w-100 ml-auto">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <ol class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </ol>
+                <div class="carousel-item active text-center position-relative">
+                    <div id="carouselContainer" class="container">
+                        <img src="img/RVShare/CarouselThor1.jpg" class="e-block" alt="..."/>
+                        <h1>2018 Thor Freedom Elite 1</h1>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Read More
+                        </a>
+                    </div>
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a id="reviewBtn" data-toggle="collapse" href="#abox2">Read Review!</a>
+                            </h4>
+                          </div>
+                          <div id="abox2" class="panel-collapse collapse">
+                            <div class="panel-body"><p class="fs-4">"We had a wonderful RV trip around the 3 states and 5 national parks.
+                                Marc has always been thoughful and accommodating. He made the trip much easier for the 1st time RV riders like us.
+                                The RV has everything as described. It is reliable and perfect for 4 to 5 people". I would recommend Marc & Jon's to any RV riders. Wonderful experience!"</p></div>
+                            <div class="panel-footer"> <h1>- Dayun</h1></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="carousel-item  text-center">
+                    <div id="carouselContainer" class="container">
+                        <img src="img/RVShare/CarouselQuantum.jpg" class="e-block" alt="..."/>
+                        <h1>2018 Thor Motorcoach Quantum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quam, debitis ipsa ullam tenetur amet possimus quo sed error tempora?</p>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a id="reviewBtn" data-toggle="collapse" href="#abox2">Read Review!</a>
+                            </h4>
+                          </div>
+                          <div id="abox2" class="panel-collapse collapse">
+                            <div class="panel-body"><p class="fs-4">"We could not have asked for a better RV experience than the one we've had with Marc and Jon. The RV was great - well maintained, clean and very well equipped. Marc gave me a very thorough overview of the RV and how to operate everything before we left. He was available on the phone to answer some questions I have while we were traveling.
+
+                                I would highly recommend renting from Marc and Jon.
+                                5 stars experience!"</p></div>
+                            <div class="panel-footer"> <h1>- Yair</h1></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="carousel-item text-center">
+                    <div id="carouselContainer" class="container">
+                        <img src="img/RVShare/CarouselThor2.jpg" class="e-block" alt="..."/>
+                        <h1>2018 Thor Freedom Elite 2</h1>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a id="reviewBtn" data-toggle="collapse" href="#abox2">Read Review!</a>
+                            </h4>
+                          </div>
+                          <div id="abox2" class="panel-collapse collapse">
+                            <div class="panel-body"><p class="fs-4">"I truly only have great things to say about our experience with Marc and Jon! 
+                                The RV was clean and well maintained with fresh appliances, cookware, dishes, and everything else we needed on our trip. 
+                                The level of detail and care they put into having the RV well equipped and ensuring it was comfortable was greatly appreciated... 
+                                The communication with Marc throughout the trip really made the whole experience that much better. 
+                                Thank you so much!"</p></div>
+                            <div class="panel-footer"> <h1>- Noa</h1></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                
+                <div class="carousel-item text-center">
+                    <div id="carouselContainer" class="container">
+                        <img src="img/RVShare/CarouselFreelander.jpeg" class="e-block" alt="..."/>
+                        <h1>2017 Coachmen Freelander</h1>
+                        <a href="#" class="btn btn-lg btn-primary">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a id="reviewBtn" data-toggle="collapse" href="#abox2">Read Review!</a>
+                            </h4>
+                          </div>
+                          <div id="abox2" class="panel-collapse collapse">
+                            <div class="panel-body"><p class="fs-4">"Perfect vacation with Marc & Jon's rental. Everything was as listed! More than accommodating :) with many amenities: camping chairs, cooler, outdoor grill, the amenities inside the camper were wonderful as well. We had excellent communication with Marc and everything was more than expected. Thanks for a wonderful trip in your RV- 5 stars!!! Perfect vote for other renters!"</p></div>
+                            <div class="panel-footer"> <h1>- Paul & Rebecca</h1></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="carousel-item text-center">
+                    <div id="carouselContainer" class="container">
+                        <img src="img/RVShare/CarouselThor3.jpg" class="e-block" alt="..."/>
+                        <h1>2018 Thor Freedom Elite 3</h1>
+                        <a href="#" class="btn btn-sm btn-primary">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a id="reviewBtn" data-toggle="collapse" href="#abox2">Read Review!</a>
+                            </h4>
+                          </div>
+                          <div id="abox2" class="panel-collapse collapse">
+                            <div class="panel-body"><p class="fs-4">"Marc was super helpful throughout the process, including clear and fast communication during our rental. The van was great and offered all the amenities we needed to have a good roadtrip. I will not hesitate to schedule another trip with these guys!"</p></div>
+                            <div class="panel-footer"> <h1>- Nikolaj</h1></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <!--
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            -->
+            </div>
+        </div>
+        <!--END-->
+
+        <!-- PARTNER SECTION-->
+        <section id="partner" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/patner.png" class="img-fluid w-75 center" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Partner with us!</h2>
+                        <p class="lead">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet dolorem doloribus exercitationem ea reiciendis.
+                        </p>
+                        <p >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias reprehenderit iusto delectus maxime at eos. Voluptas, qui ipsam doloribus ducimus amet ut autem eveniet nulla aperiam, molestias quo asperiores.
+                        </p>       
+                        <a href="" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i>
+                            Read More</a>         
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- /about SECTION-->
+
+          <section id="about" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <h2>Our Story</h2>
+                        <p class="lead">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet dolorem doloribus exercitationem ea reiciendis.
+                        </p>
+                        <p >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias reprehenderit iusto delectus maxime at eos. Voluptas, qui ipsam doloribus ducimus amet ut autem eveniet nulla aperiam, molestias quo asperiores.
+                        </p>       
+                        <a href="" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i>
+                            Read More</a>         
+                    </div>
+                    <div class="col-md">
+                        <img src="img/about.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            </section>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+    </body>
+
+</html>
