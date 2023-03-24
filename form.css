@@ -33,6 +33,10 @@ body p{
     z-index:4;
 }
 
+#formInput{
+    margin-top: 20px;
+}
+
 form{
     --bs-body-bg: #fbfcf8
 }
