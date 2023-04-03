@@ -1,0 +1,275 @@
+:root{
+    --primary-color:#0a1118;
+    --primary-color-highlight:#233d54;
+    --bs-body-bg: #FBFCF8;
+    /*--bs-body-font-family:"Poppins", sans-serif;*/
+}
+body h3{
+    font-size: 24px;
+}
+body p{
+    font-size: 14px;
+}
+/*
+    @media (min-width:544px) {}
+    @media (min-width:768px) {}
+    @media (min-width:992px) {}
+    @media (min-width:1200px) {}
+    @media (min-width:1400px) {}
+    @media (min-width:1600px) {}
+*/
+
+/* navigation bar */
+#navbar{
+    margin-bottom: 70px;
+}
+.navbar{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    background-color: rgb(255,247,231);
+    z-index:4;
+
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: #233d54;
+}
+#header h1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#header .container{
+    padding-bottom:20px;
+}
+#header .breadcrumb{
+    padding-top:60px;
+    padding-left:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container .dropdown__menu{
+    width: 100%; 
+    background-color: transparent;
+    border-width: 0;
+    color: white;
+}
+
+.container .dropdown__menu2{
+    width: 100%; 
+    background-color: transparent;
+    border-width: 0;
+    color: black;
+}
+
+@media (min-width:768px) {
+    .container .dropdown__menu{
+        width: 100%; 
+        background-color: transparent;
+        border-width: 0;
+        color: white;
+        padding-left: 300px;
+    }
+}
+
+#header .card{
+    color: #0a1118;
+}
+
+.booking__Calendar{
+    width:300px;
+    height: 200px;
+}
+
+iframe{
+    max-width:100%;
+}
+
+
+/* carousel */
+.carousel__row{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#carouselContainer img{
+    width:100%;
+    height:auto;
+}
+
+
+
+@media (min-width:992px) {
+    .card{
+        width:100%;
+    }
+}
+
+
+#guests{
+    width:6rem;
+}
+
+@media (max-width:992px) {
+    .card{
+        width:100%;
+    }
+}
+
+
+
+#guests{
+    border-color: #0a1118;
+    height:28px;
+}
+
+/* rv description */
+#cleanliness{
+    margin-top:80px;
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cleanliness .container{
+    margin-bottom: 40px;;
+}
+
+#details{
+    margin-top:80px;
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#details .container{
+    margin-bottom: 40px;;
+}
+
+#reviews{
+    margin-top:80px;
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reviews .container{
+    margin-bottom: 40px;;
+}
+
+#reviews .collapse.in{
+    display: inline
+}
+
+#more {display: none;}
+
+#rates{
+    margin-top:80px;
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rates .container{
+    margin-bottom: 40px;
+    margin-top:80px;
+}
+
+.review__Container{
+    padding-bottom: 4px;
+}
+
+.read-more-container{
+    display:flex;
+    flex-direction: column;
+    color: black;
+}
+.read-more-container .container{
+    padding:2rem;
+    border-radius:2px;
+    line-height:1.4rem;
+    box-shadow: 0 0 1 rem rgba(0,0,0,.1)
+
+}
+.read-more-btn{
+    color:#233d54
+}
+.read-more-text{
+    display:none;
+}
+
+.read-more-text--show{
+    display:inline;
+}
+
+.toggle-text {
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.post button{
+    border:none;
+    cursor: pointer;
+    float: right;
+
+}
+
+.post:not(:last-child){
+    margin-bottom:50px;
+
+}
+
+
+
+form{
+    --bs-body-bg: #fbfcf8
+}
+body h1{
+    font-family: "Code", sans-serif;
+}
+body h2{
+    font-family: "Code", sans-serif;
+    color:#233d54;
+}
+body h3{
+    font-family: "Code", sans-serif;
+}
+body p{
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+
+.footer .border-highlight{
+    border-top:1px solid var(--primary-color-highlight)
+}
+.footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*custom containter*/
+.custom-container{
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
