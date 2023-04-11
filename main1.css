@@ -29,6 +29,10 @@ body p{
     padding:5%;
 }
 
+.logo__text{
+    font-family: 'Hurricane', cursive;
+}
+
 /*custom containter*/
 .custom-container{
     width: 100%;
@@ -334,9 +338,11 @@ hero section
 
 
 #about img{
-    width:100%;
+    width:75%;
     height:auto;
+
 }
+
 
 .footer .border-highlight{
     border-top:1px solid var(--primary-color-highlight)
@@ -371,5 +377,4 @@ hero section
 .allegiant__img{
     width:500px;
     height:333.48px;
-    background-color;
 }

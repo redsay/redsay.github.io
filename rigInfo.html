@@ -18,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    
     <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg py-3 header p-3 position-absolute start-0 top-0 end-0" style="background-color: black;">
         <!-- Container for the information included in the navbar-->
@@ -44,27 +44,359 @@
                 <!-- define navbar navigation list, ms-auto will align these items to the right-->
                 <ul class="navbar-nav ms-auto">
                     <!-- define navbar list items-->
-                    <li class="nav-item ">
-                        <a href="index.html#about" class="nav-link text-white text-end ">About</a>
+                    <li class="nav-item">
+                        <a href="riginfo.html" class="nav-link text-white text-end ">Explore Fleet</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#rigs" class="nav-link text-white text-end ">Explore Fleet</a>
+                        <a href="indexNoCarousel.html#partner" class="nav-link text-white text-end ">Partner with Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#partner" class="nav-link text-white text-end ">Partner with Us</a>
+                        <a href="indexNoCarousel.html#events" class="nav-link text-white text-end ">Upcoming Events</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html#about" class="nav-link text-white text-end ">Contact Us</a>
+                        <a href="indexNoCarousel.html#about" class="nav-link text-white text-end ">About Us</a>
                     </li>
-                    <!--                            <li class="nav-item">
-                        <a href="events.html" class="nav-link text-white text-end ">Upcoming Events</a>
-                    </li>-->
+
                 </ul>
             </div>
         </div>
     </nav> 
     <!-- NAVBAR END -->
 
+    <section id="rig__tabs">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-freelander-tab" data-bs-toggle="tab" data-bs-target="#nav-freelander" type="button" role="tab" aria-controls="nav-freelander" aria-selected="true">2018 Coachmen Freelander</button>
+              <button class="nav-link" id="nav-elite1-tab" data-bs-toggle="tab" data-bs-target="#nav-elite1" type="button" role="tab" aria-controls="nav-elite1" aria-selected="false">2018 Thor Freedom Elite 1</button>
+              <button class="nav-link" id="nav-quantum-tab" data-bs-toggle="tab" data-bs-target="#nav-quantum" type="button" role="tab" aria-controls="nav-quantum" aria-selected="false">2018 Thor Quantum</button>
+              <button class="nav-link" id="nav-elite2-tab" data-bs-toggle="tab" data-bs-target="#nav-elite2" type="button" role="tab" aria-controls="nav-elite2" aria-selected="false">2018 Thor Freedom Elite 2</button>
+              <button class="nav-link" id="nav-winds-tab" data-bs-toggle="tab" data-bs-target="#nav-winds" type="button" role="tab" aria-controls="nav-winds" aria-selected="false">2018 Thor Four Winds</button>
+              <button class="nav-link" id="nav-elite3-tab" data-bs-toggle="tab" data-bs-target="#nav-elite3" type="button" role="tab" aria-controls="nav-elite3" aria-selected="false">2018 Thor Freedom Elite 3</button>
+
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-freelander" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <section id="freelander" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <!--
+                                <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
+                                src="img/RVShare/CarouselFreelander.jpeg" loading="lazy" class="e-block" alt="..."/>
+                                -->
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Coachmen RV Freelander 31BH Ford 450</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookFree.html">Book Now</a> <i class="bi bi-arror-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="tab-pane fade" id="nav-elite1" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                <!-- SECTION 2 - 2018 Thor Motor Coach Freedom Elite 1 26HE -->
+                <section id="elite1" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <div id="carouselExample2" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Freedom Elite 1 26HE</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookElt1.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION 2 END -->
+            </div>
+            <div class="tab-pane fade" id="nav-quantum" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                <!-- SECTION 3 - 2018 Thor Motor Coach Quantum RW28 -->
+                <section id="quantum" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <div id="carouselExample3" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Quantum RW28
+                                    </h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookQuan.html">Book Now</a> <i class="bi bi-arror-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION 3 END -->
+            </div>
+            <div class="tab-pane fade" id="nav-elite2" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <!-- SECTION 4 - 2018 Thor Motor Coach Freedom Elite 2 26HE -->
+                <section id="elite2" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <div id="carouselExample4" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Freedom Elite 2 26HE</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookElt2.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION 4 END -->
+            </div>
+            <div class="tab-pane fade" id="nav-winds" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                <!-- SECTION 5 - 2018 Thor Motor Coach Four Winds 31Y -->
+                <section id="winds" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <div id="carouselExample5" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Four Winds 31Y
+                                    </h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookWind.html">Book Now</a> <i class="bi bi-arror-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION 5 END -->
+            </div>
+            <div class="tab-pane fade" id="nav-elite3" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">.
+                <!-- SECTION 6 - 2018 Thor Motor Coach Freedom Elite 3 26HE -->
+                <section id="elite3" class="rigs">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
+                                <!--full w on mob, half uopn sm breakpoint-->
+                                <div id="carouselExample6" class="carousel slide">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="img/freelanderCarousel/car1.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car2.jpeg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car3.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car4.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/freelanderCarousel/car5.webp" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
+                                <div class="steps__content-width">
+                                    <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Freedom Elite 3 26HE</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Vitae quas, possimus eaque non quis eveniet vero tempore 
+                                        expedita quod, assumenda distinctio magni magnam culpa rem 
+                                        totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
+                                        consequatur totam similique rerum dolorum at illo voluptatem 
+                                        quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
+                                    <a href="bookElt3.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- SECTION 6 END -->
+            </div>
+          </div>
+    </section>
+
+    <!--
     <div class="bread__Crumb">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -89,167 +421,18 @@
             </ol>
         </nav>
     </div>
+    -->
         
-    <!-- SECTION 1 - 2018 Coachmen RV Freelander 31BH Ford 450 -->
-    <section id="freelander" class="rigs">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/RVShare/CarouselFreelander.jpeg" loading="lazy" class="e-block" alt="..."/>
-                    
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-black mb-4">2018 Coachmen RV Freelander 31BH Ford 450</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookFree.html">Book Now</a> <i class="bi bi-arror-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 1 END -->
 
-    <!-- SECTION 2 - 2018 Thor Motor Coach Freedom Elite 1 26HE -->
-    <section id="elite1" class="rigs__Black text-white" style="background-color: black;">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/RVShare/CarouselThor1.jpg" loading="lazy" class="e-block" alt="..."/>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-white mb-4">2018 Thor Motor Coach Freedom Elite 1 26HE</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookElt1.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 2 END -->
 
-    <!-- SECTION 3 - 2018 Thor Motor Coach Quantum RW28 -->
-    <section id="quantum" class="rigs">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/RVShare/CarouselQuantum.jpg" loading="lazy" class="e-block" alt="..."/>
-                    
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Quantum RW28
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookQuan.html">Book Now</a> <i class="bi bi-arror-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 3 END -->
 
-    <!-- SECTION 4 - 2018 Thor Motor Coach Freedom Elite 2 26HE -->
-    <section id="elite2" class="rigs__Black text-white" style="background-color: black;">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/RVShare/CarouselThor2.jpg" loading="lazy" class="e-block" alt="..."/>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-white mb-4">2018 Thor Motor Coach Freedom Elite 2 26HE</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookElt2.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 4 END -->
 
-    <!-- SECTION 5 - 2018 Thor Motor Coach Four Winds 31Y -->
-    <section id="winds" class="rigs">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center order-sm-1">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/CarouselWinds.jpg" loading="lazy" class="e-block" alt="..."/>
-                    
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-black mb-4">2018 Thor Motor Coach Four Winds 31Y
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookWind.html">Book Now</a> <i class="bi bi-arror-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 5 END -->
 
-    <!-- SECTION 6 - 2018 Thor Motor Coach Freedom Elite 3 26HE -->
-    <section id="elite3" class="rigs__Black text-white" style="background-color: black;">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 d-md-flex justify-content-md-center">
-                    <!--full w on mob, half uopn sm breakpoint-->
-                    <img class='img-fluid py-4 steps__section-thumbnaild-none d-sm-block' 
-                    src="img/RVShare/CarouselThor3.jpg" loading="lazy" class="e-block" alt="..."/>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center justify-content-md-center ">
-                    <div class="steps__content-width">
-                        <h1 class="hero__heading fw-bold text-white mb-4">2018 Thor Motor Coach Freedom Elite 3 26HE</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Vitae quas, possimus eaque non quis eveniet vero tempore 
-                            expedita quod, assumenda distinctio magni magnam culpa rem 
-                            totam! Adipisci fuga dolore rem itaque beatae soluta excepturi 
-                            consequatur totam similique rerum dolorum at illo voluptatem 
-                            quam earum est laboriosam, suscipit accusamus ratione obcaecati?</p>
-                        <a href="bookElt3.html">Book Now</a> <i class="bi bi-arror-right"></i>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION 6 END -->
+
+
+
+
+
 
     <!-- Footer start -->
     <div class="footer text-white container-fluid d-flex justify-content-between align-items-center py-3">
