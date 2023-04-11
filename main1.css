@@ -36,8 +36,6 @@ body p{
     margin: 0 auto;
 }
 
-
-
 /* main header */
 .header{
     z-index:2;
@@ -50,9 +48,7 @@ body p{
     top:0;
     right:0;
     z-index:4;
-    
 
-    
 }
 
 .dropdown-nav__closeNavBtn{
@@ -68,116 +64,74 @@ hero section
 
 #hero_id{
     position:relative;
-    height:100vh;
     background-color: whitesmoke/*var(--bs-body-bg)*/;
     overflow:hidden;
-    
+}
+
+#carouselExampleIndicators{
+    position: relative;
 }
 
 .carousel-indicators button{
     position:relative;
-    bottom: 250px;
+    bottom: 50px;
+}
+
+.explore__button{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+
+.partner__text{
+    position: relative;
+    /*background-color: gray;*/
+    color: white;
+    width: 75%;
+    bottom: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.partner__caption h1{
+    position:relative;
+    bottom: 125px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    /*background-color: gray;*/
 }
 
 .carousel-indicators{
     z-index:3;
 }
 
-/*
-.hero img{
-    position:absolute;
-    top:50%;
-    left:50%;
-    min-width:100%;
-    min-height:100%;
-    width:auto;
-    height:auto;
-    transform: translateX(-50%) translateY(-50%);
-}
-*/
-.hero__overlay{
-    position: absolute;
-    left: 0;
-    right: 0;
-    background-color: gainsboro;
-    opacity: 75.0;
-    z-index: 1;
-}
-.carousel-caption{
-    position:absolute;
-    top: 470px;
+.hero__caption h1{
+    position:relative;
+    bottom: 125px;
+    margin: 0 auto;
+    text-align: center;
     color: white;
     z-index: 2;
 }
 
-.carousel-caption2{
+.hero__caption a{
+    position: inherit;
+    justify-content: center;
+    text-decoration: underline  ;
+    font-size: 1.2rem;    
+}
+
+.confidence__caption{
     position:absolute;
     top: 70px;
     left:50px;
+    text-align: center;
     color: black;
     z-index: 2;
     filter: grayscale(50%);
 }
-
-.partner__text-background{
-    position:absolute;
-    top: 70px;
-    left:50px;
-    color: black;
-    z-index: 2;
-    background-color: whitesmoke;
-}
-
-.hero__heading1{
-    font-size: 52px;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-}
-
-.carousel__heading{
-    font-size: 52px;
-    width: 50%;
-    text-align:start;
-}
-
-.confidence__paragraph{
-    font-size: 30px;
-    width: 30%;
-    text-align:start;
-    color: white;
-}
-
-.partner__text-background{
-    position:absolute;
-    top: 470px;
-    background-color: black;
-    z-index: 2;
-    opacity: 75%;
-}
-.partner__button{
-    position:absolute;
-    top: 70px;
-    left:50px;
-    width: 50%;
-    z-index: 2;
-    opacity: 75%;
-}
-
-.carousel__heading2{
-    font-size: 52px;
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    color: white;
-}
-.partner__paragraph{
-    font-size: 30px;
-    text-align:start;
-    color: white;
-}
-
-
 
 .hero__content{
     z-index:1;
@@ -186,37 +140,12 @@ hero section
 .carousel-item img{
     width: 100%;
     height: auto;
-    filter: grayscale(50%);
+    filter: grayscale(25%);
     object-fit: contain;
 }
 
 
-.hero__scroll-btn{
-    position:absolute;
-    left: 50%;
-    bottom: 30px;
-    transform: translateX(50%);
-    z-index:1;
-    color:var(--bs-light);
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    text-decoration: none;
-}
-
-.hero__scroll-btn:hover{
-    color:var(--bs-light);
-    opacity: 0.8;
-
-}
-
-.hero__scroll-btn .bi{
-    transition-delay: 0.8s;
-    animation: bounce 1s infinite alternate;
-}
-
-
-/*    confidence section      */
+/*    confidence section      
 @media (min-width:1400px) {
     .confidence__heading{
         font-size:3.2rem;
@@ -238,8 +167,14 @@ hero section
         font-size:1rem;
     }
 }
+*/
 
 /* reviews section */
+
+#reviews{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 
 .cards-wrapper{
     display:flex;
@@ -249,9 +184,9 @@ hero section
 .card{
     margin: 0 .5em;
     width: calc(100%/3);
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    box-shadow: 2px 6px 8px 2px rgba(22, 22, 26, 0.18);
     border: none;
-    border-radius: 0;
+    opacity: 75%;
 }
 
 .reviews__carousel .carousel-inner{
@@ -265,7 +200,15 @@ hero section
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 90px;
-    background-color:#233d54;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: #FFDF00;
 }
 
 @media (min-width:768px) {
@@ -407,4 +350,26 @@ hero section
 
 #formInput{
     margin-top:100px;
+}
+
+/*events*/
+#events{
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+.reviews__caption{
+    margin: auto;
+}
+
+.festival__img{
+    width: 500px;
+    height:333.48px;
+    margin-bottom: 25px;
+
+}
+
+.allegiant__img{
+    width:500px;
+    height:333.48px;
+    background-color;
 }
