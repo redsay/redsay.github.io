@@ -2,36 +2,24 @@
     --primary-color:#0a1118;
     --primary-color-highlight:#233d54;
     --bs-body-bg: #FBFCF8;
-    /*--bs-body-font-family:"Poppins", sans-serif;*/
 }
-
-/*
-    @media (min-width:544px) {}
-    @media (min-width:768px) {}
-    @media (min-width:992px) {}
-    @media (min-width:1200px) {}
-    @media (min-width:1400px) {}
-    @media (min-width:1600px) {}
-*/
 
 /* navigation bar */
-#navbar{
-    margin-bottom: 70px;
-}
 .navbar{
     position:fixed;
     left:0;
     top:0;
     right:0;
-    background-color: rgb(255,247,231);
     z-index:4;
 
 }
 
-#rig__tabs{
-    padding-top: 100px;
+.dropdown-nav__closeNavBtn{
+    position: absolute;
+    top: 20px;
+    right:16px;
+    background-color: rgbA(255,255,255,0.6);
 }
-
 
 .footer .border-highlight{
     border-top:1px solid var(--primary-color-highlight)
@@ -112,30 +100,5 @@ body p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
-}
-
-.rigs{
-    padding-top: 20px;
-    margin-top:40px;
-    margin-bottom:50px;
-}
-
-.rigs__Black{
-    padding-top: 80px;
-    margin-top:80px;
-    padding-bottom:50px;
-}
-
-
-.footer .border-highlight{
-    border-top:1px solid var(--primary-color-highlight)
-}
-
-.footer{
-    color: white;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    right: 0;
 }
 

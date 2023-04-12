@@ -2,27 +2,16 @@
     --primary-color:#0a1118;
     --primary-color-highlight:#233d54;
     --bs-body-bg: #FBFCF8;
-    /*--bs-body-font-family:"Poppins", sans-serif;*/
 }
 
-body h1{
-    font-family: "Code", sans-serif;
-}
-body h2{
-    font-family: "Code", sans-serif;
-    color:#233d54;
-}
-body p{
-    font-family:'Poppins', sans-serif;
-}
 /* navigation bar */
 .navbar{
     position:fixed;
     left:0;
     top:0;
     right:0;
-    background-color: rgb(255,247,231);
     z-index:4;
+
 }
 
 .dropdown-nav__closeNavBtn{
@@ -30,4 +19,85 @@ body p{
     top: 20px;
     right:16px;
     background-color: rgbA(255,255,255,0.6);
+}
+
+.footer .border-highlight{
+    border-top:1px solid var(--primary-color-highlight)
+}
+
+.footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+
+.font__logo{
+    font-family: 'Hurricane', cursive;
+    font-size: 52px;
+    font-weight: 500;
+}
+.body__header{
+    margin: auto;
+    padding-top: 150px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.body__text{
+    width:75%
+    margin:auto;
+    padding-top: 80px;
+}
+
+@media (max-width:544px){
+    .font__logo{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:200px) and (max-width:543px){
+    body h1{
+        font-family: 'Hurricane', cursive;
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:544px) and (max-width:768px){
+    body h1{
+        font-family: 'Hurricane', cursive;
+        font-size: 52px;
+        font-weight: 500;
+
+    }
+}
+@media (min-width:769px){
+    body h1{
+        font-family: 'Hurricane', cursive;
+        font-size: 62px;
+        font-weight: 500;
+    }
+}
+
+body h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body h3{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }

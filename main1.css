@@ -65,7 +65,8 @@ body h3{
 body p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 400;}
+    font-weight: 400;
+}
 
 .button__text{
     font-style: italic;
