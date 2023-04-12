@@ -15,17 +15,20 @@
 */
 
 /* navigation bar */
-#navbar{
-    margin-bottom: 70px;
-}
 .navbar{
     position:fixed;
     left:0;
     top:0;
     right:0;
-    background-color: rgb(255,247,231);
     z-index:4;
 
+}
+
+.dropdown-nav__closeNavBtn{
+    position: absolute;
+    top: 20px;
+    right:16px;
+    background-color: rgbA(255,255,255,0.6);
 }
 
 #rig__tabs{
@@ -106,6 +109,12 @@ body h3{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 300;
+}
+
+.hero__heading{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
 }
 
 body p{
