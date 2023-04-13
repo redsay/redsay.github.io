@@ -51,7 +51,7 @@
 }
 
 .body__text{
-    width:75%
+    width:75%;
     margin:auto;
     padding-top: 80px;
 }
@@ -125,14 +125,47 @@ body p{
 
 
 .footer .border-highlight{
-    border-top:1px solid var(--primary-color-highlight)
+    border-top:1px solid var(--primary-color-highlight);
 }
 
 .footer{
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left:0;
     right: 0;
 }
 
+
+
+
+
+@media (min-width:544px) and (max-width:1200px){
+    .steps__content-width h1{
+        font-size: 30px;
+    }
+    .steps__content-width p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:200px) and (max-width:543px){
+    .steps__content-width h1{
+        font-size: 20px;
+    }
+    .steps__content-width p{
+        font-size: 12px;
+    }
+}
+
+img{
+    padding-bottom: 40px;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+p{
+    padding-bottom:20px;
+}

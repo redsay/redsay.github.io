@@ -187,7 +187,6 @@ hero section
 .carousel-item img{
     position: relative;
     width: 100%;
-    min-height: auto;
     height: auto;
     filter: grayscale(25%);
     object-fit: contain;
