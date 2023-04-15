@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="book.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,226 +14,119 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
+    <!--google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
     <title>Document</title>
 </head>
 <body>
 
-        <!-- NAVBAR START -->
-        <nav class="navbar navbar-expand-lg py-3 header p-3 position-absolute start-0 top-0 end-0" style="background-color: black;">
-            <!-- Container for the information included in the navbar-->
-            <div class="container-fluid">
-                <!-- add branding within container-->
-                <a href="/" class="text-decoration-none text-white mx-3"><h1 class="font__logo">RVnB Life</h1></a>
-                <a href="#" class="text-decoration-none text-white mx-3 d-none d-md-block"><h5>+1 111 222 3333</h5></a>
-                <a href="#" class="text-decoration-none text-white mx-3 d-none d-md-block"><h5>email@email.com</h5></a>
-                
-                <!-- create a collapsable button which targets our navigationbar -->
-                <button 
-                    id="hambBtn"
-                    class="btn navbar-toggler bg-white" 
-                    type="button" 
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navmenu"
-                >
-                <!--adds our hamburger icon for our button-->
-                    <span class="navbar-toggler-icon"></span> <!-- toggle the below div-->
-                </button>
-                <!-- provides the ability for the menu to collapse under the breakpoint-->
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <!-- define navbar navigation list, ms-auto will align these items to the right-->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- define navbar list items-->
-                        <li class="nav-item">
-                            <a href="rv_listing.html" class="nav-link text-white text-end "><h5>Explore Fleet</h5></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="partner.html" class="nav-link text-white text-end "><h5>Partner with Us</h5></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="events.html" class="nav-link text-white text-end "><h5>Upcoming Events</h5></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html#about" class="nav-link text-white text-end "><h5>About Us</h5></a>
-                        </li>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg py-3 header p-3 position-absolute start-0 top-0 end-0" style="background-color: black;">
+        <!-- Container for the information included in the navbar-->
+        <div class="container-fluid">
+            <!-- add branding within container-->
+            <a href="/" class="text-decoration-none text-white mx-3"><h1 class="font__logo">RVnB Life</h1></a>
+            <a href="#" class="text-decoration-none text-white mx-3 d-none d-md-block"><h5>+1 111 222 3333</h5></a>
+            <a href="#" class="text-decoration-none text-white mx-3 d-none d-md-block"><h5>email@email.com</h5></a>
+            
+            <!-- create a collapsable button which targets our navigationbar -->
+            <button 
+                id="hambBtn"
+                class="btn navbar-toggler bg-white" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+            <!--adds our hamburger icon for our button-->
+                <span class="navbar-toggler-icon"></span> <!-- toggle the below div-->
+            </button>
+            <!-- provides the ability for the menu to collapse under the breakpoint-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- define navbar navigation list, ms-auto will align these items to the right-->
+                <ul class="navbar-nav ms-auto">
+                    <!-- define navbar list items-->
+                    <li class="nav-item">
+                        <a href="rv_listing.html" class="nav-link text-white text-end "><h5>Explore Fleet</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="partner.html" class="nav-link text-white text-end "><h5>Partner with Us</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="events.html" class="nav-link text-white text-end "><h5>Upcoming Events</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link text-white text-end "><h5>About Us</h5></a>
+                    </li>
 
-                    </ul>
-                </div>
+                </ul>
             </div>
-        </nav> 
-        <!-- NAVBAR END -->
-        
+        </div>
+    </nav> 
+    <!-- NAVBAR END -->
     <section id="header">
-        <div class="jumbotron bg-dark text-light jumbotron-fluid">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                        <a class="text-warning" aria-current="page" href="#book">Book</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a class="text-warning" href="#cleanliness">Details</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a class="text-warning" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a class="text-warning" href="#rates">Upgrades</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                        <a class="text-warning" href="#rates">Additional Charges</a>
-                    </li>
-                </ol>
-            </nav>
+        <div class="jumbotron text-light jumbotron-fluid" style="background-color: black;">
+            <div class="flex-container crumb__container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a  aria-current="page" href="#book">Book</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#cleanliness">Details</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a  href="#reviews">Reviews</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a  href="#fees">Additional Charges</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
 
             <div class="container text-center">
-                <h1 class="text-center d-inline">2018 Coachmen Freelander</h1>
-                <p class="d-inline text-warning"><b>5.0/5.0 </b> (38 trips)</p>
+                <h1 class="text-center d-inline caption__header">2018 Thor Freedom Elite 2</h1>                
             </div>
+
             <div class="container text-center w-100">
-                <p>Family-friendy, classy 2018 class-c Coachmen Freelander. 
-                    Equipped with everything needed for up to <b>nine people</b>  
-                    to enjoy a confortable experience wherever your journey takes you. 
-                    
-                </p>
-                <div class="dropdown open justify-content-center" >
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" 
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                        RV Features
-                    </button>
-                    <ul class="dropdown__menu dropdown-menu dropdown-menu-end position-sticky text-center"  aria-labelledby="dropdownMenuButton1">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <ul>
-                                    <p>Sleeps 9</p>
-                                    <p>Game cabin</p>
-                                    <p>Bathroom/shower</p>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul>
-                                    <p>Master + Queen Mattress</p>
-                                    <p>Game Cabin</p>
-                                    <p>3 TV's (2 indoor/1 outdoor) + DVD players</p>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul>
-                                    <p>Indoor and outdoor stereo systems</p>
-                                    <p>Fully Functional kitchen</p>
-                                    <p>Heated water</p>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3">
-                                <ul>
-                                    <p>Toaster + Coffee maker</p>
-                                    <p>AC/Furnace</p>
-                                    <p>Generator</p>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
+                <h4 class="highlight__mj rig__summary">What do you want to highlight here? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit natus aliquid non esse rem atque mollitia repudiandae iste illum voluptates recusandae nostrum consectetur aspernatur, totam qui nesciunt maiores, iure voluptas corrupti, necessitatibus asperiores laudantium fugiat rerum dolore. Dolor, totam. Animi?
+                </h4>
+            <div class="container text-center stars__container">
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+            </div>
+            <div class="container text-center">
+                <a href="#reviews" class="card-link" style="color: #FFDF00;"><p>See Reviews</p></a>
             </div>
 
             <div id="#book" class="carousel__row row align-items-center">
-                <div class="col-lg-8 mb-2 py-2">
-                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div id ="slide1" class="carousel-item active text-center position-relative" data-bs-interval="2000">
-                                <div id="carouselContainer" class="container">
-                                    <img src="img/freelanderCarousel/car1.webp" class="e-block" alt="..."/>
-                                </div>
-                            </div>
-                            <div id ="slide2" class="carousel-item text-center position-relative" data-bs-interval="2000">
-                                <div id="carouselContainer" class="container">
-                                    <img src="img/freelanderCarousel/car2.jpeg" class="e-block" alt="..."/>
-                                </div>
-                            </div>
-                            <div id ="slide3" class="carousel-item text-center position-relative" data-bs-interval="2000">
-                                <div id="carouselContainer" class="container">
-                                    <img src="img/freelanderCarousel/car3.webp" class="e-block" alt="..."/>
-            
-                                </div>
-                            </div>
-                            <div id ="slide4" class="carousel-item text-center position-relative" data-bs-interval="2000">
-                                <div id="carouselContainer" class="container">
-                                    <img src="img/freelanderCarousel/car4.webp" class="e-block" alt="..."/>
-            
-                                </div>
-                            </div>
-                            <div id ="slide5" class="carousel-item text-center position-relative" data-bs-interval="2000">
-                                <div id="carouselContainer" class="container">
-                                    <img src="img/freelanderCarousel/car5.webp" class="e-block" alt="..."/>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-2 py-2">
-                    <!--
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">$186/night</h5>
-                            <div class="row">
-                                <h6>Dates</h6>
-                                <div class=" col-lg-4">
-                                    <label for="start"><p>Start:</p></label>
-                                    <input type="date" id="start" name="trip-start"
-                                        value="2018-07-22"
-                                        min="2018-01-01" max="2018-12-31">
-                                </div>
-                                <div class=" col-lg-4">
-                                    <label for="end"><p>End:</p></label>
-                                    <input type="date" id="end" name="trip-end"
-                                        value="2018-07-22"
-                                        min="2018-01-01" max="2018-12-31">
-                                </div>
-                                <div class="col-lg-4 ">
-                                    <div class="dropdown">
-                                        <label for="guests"><p># of Guests:</p></label>
-                                        <select name="guests" id="guests">
-                                          <option value="1">1</option>
-                                          <option value="2">2</option>
-                                          <option value="3">3</option>
-                                          <option value="4">4</option>
-                                          <option value="5">5</option>
-                                          <option value="6">6</option>
-                                          <option value="7">7</option>
-                                          <option value="8">8</option>
-                                          <option value="9">9</option>
-
-                                        </select>
-                                        <br><br>
-                                    </div> 
-                                    
-                                </div>
-                            <div class="row">
-                                <p>A minimum of 3 nights is required.</p>
-                            </div>
-                            <div class="row">
-                                <a href="form.html" class="btn btn-md btn-outline-dark" 
-                                role="button">Book Now</a>
-                            </div>
-
-
-                        </div>
-                      </div>
-                    -->
-                    <script src="https://www.bookingmood.com/js/resize.js"></script>
-                    <iframe
-                      src="https://www.bookingmood.com/embed/calendar/cdb30ef6-8e88-49d3-81c6-307d9f6634e7"
-                      style="width:100%;border:none"
-                    ></iframe>
+                <script src="https://www.bookingmood.com/js/resize.js"></script>
+                <iframe
+                    src="https://www.bookingmood.com/embed/calendar/cdb30ef6-8e88-49d3-81c6-307d9f6634e7"
+                    style="width:100%;border:none"
+                ></iframe>
 
                     
-                </div>
             </div>
         </div>
     </section>
@@ -256,284 +149,228 @@
         </div>
     </section>
 
-    <section id="details">
-        <div class="container">
-            <h3>What our rig offers</h3>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Bathroom
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">                        
-                            <p>Toilet</p>
-                            <p>Shower</p>
-                            <p>Bathroom Sink</p>
-                            <p>Heated water</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Bedroom
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" 
-                  aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                            <p>Sleeps 9</p>
-                            <p>Sheets, blankets, pillows</p>
-                            <p>Master + Queen Mattress</p>
-                            <p>Number of Bunk Beds - 2</p>
-                            <p>Total Number of Beds - 6</p>
+    <!--
+        Icon links
+            FOr free use add this to page bottom
+            <a target="_blank" href="https://icons8.com">Icons by Icons8</a>
+    -->
+    
 
-                    </div>
-                  </div>
+    <section id="details">
+        <div class="container details__container">
+            <h3 class="detail__header">Amenities</h3>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>
+                            <img src="https://img.icons8.com/ios/50/null/toilet-bowl.png"/>
+                            <span>Toilet</span>
+                        </li>
+                        <li>                        
+                            <img src="https://img.icons8.com/ios/50/null/shower.png"/>
+                            <span>Shower</span></li>
+                        <li>                        
+                            <img src="https://img.icons8.com/ios/50/null/bathtub-mirror.png"/>
+                            <span>Bathroom Sink</span></li>
+                        <li>                        
+                            <img src="https://img.icons8.com/ios/50/null/radio-2.png"/>
+                            <span>AFM/FM radio</span>   </li>
+                        <li>                        
+                            <img src="https://img.icons8.com/ios/50/null/sound-surround.png"/>         
+                            <span>Interior Stereo System</span></li>
+                        <li>
+                            <img src="https://img.icons8.com/ios/50/null/tv.png"/>
+                            <span>TV</span>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/null/external-ipod-appliances-dreamstale-lineal-dreamstale.png"/>
+                            <span>iPod Docking Station</span></li>
+
+                    </ul>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Kitchen
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                            <p>Refrigerator</p>
-                            <p>Kitchen Sink</p>
-                            <p>Slide out</p>
-                            <p>Microwave</p>
-                            <p>Range (stove) </p>
-                            <p>Heated water</p>
-                            <p>Toaster + Coffee maker</p>
-                    </div>
-                  </div>
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/pillow.png"/>
+                            <span>Sheets, blankets, pillows</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/bedroom-interior.png"/>
+                            <span>Master Bedroom w/ Queen Mattress</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/kids-bedroom.png"/>
+                            <span>Bunk Beds - 1</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/empty-bed.png"/>
+                            <span>Beds - 2</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/central-air-conditioning.png"/>
+                            <span>AC/Furnace</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/air-conditioner.png"/>
+                            <span>In-dash air conditioning</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/cd--v1.png"/>
+                            <span>DVD and CD player</span></li>
+                    </ul>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Camping
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">            
-                            <p>Electrical Service - 30 amp</p>
-                            <p>Fresh Water Tank - 50.0 gal</p>
-                            <p>Extension cord - 32.0 ft</p>
-                            <p>Electric Generator</p>
-                            <p>Hot and Cold Water Supply</p>
-                      </div>
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/water-heater.png"/>
+                            <span>Heated Water</span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/fridge.png"/>
+                            <span>Refrigerator</span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/sink.png"/>
+                            <span>Kitchen Sink</span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/microwave.png"/>
+                            <span>Microwave</span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/electric-stovetop.png"/>
+                            <span>Range (stove) </span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/toaster.png"/>
+                            <span>Toaster</span></li>
+                        <li>                    <img src="https://img.icons8.com/ios/50/null/coffee-maker.png"/>
+                            <span>Coffee maker</span></li>
+
+                    </ul>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Entertainement
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">            
-                            <p>3 TV's (2 indoor/1 outdoor)</p>
-                            <p>DVD and CD player</p>
-                            <p>AFM/FM radio</p>                        
-                            <p>Intereion & Exterior Sterio System</p>
-                            <p>Game cabin</p>
-                      </div>
-                    </div>
+            </div>
+        </div>
+        <div class="container details__container">
+            <h3 class="detail__header">Campsite Essentials</h3>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>
+                            <img src="https://img.icons8.com/pastel-glyph/64/null/electricity.png"/>
+                            <span>Electrical Service - 30 amp</span>
+                        </li>
+                        <li>                        
+                            <img src="https://img.icons8.com/external-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto/64/null/external-water-tank-manufacturing-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto.png"/>                            <span>Fresh Water Tank - 40.0 gal</span></li>
+                    </ul>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingSix">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Cooling & Heating
-                      </button>
-                    </h2>
-                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">        
-                            <p>AC/Furnace</p>
-                            <p>Hot & cold water supply</p>
-                            <p>In-dash air conditioning</p>
-                            <p>Roof air conditioning</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/length.png"/>
+                            <span>Length - 26.0 ft</span></li>
+                        <li>                    
+                            <img src="https://img.icons8.com/external-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto/64/null/external-generator-manufacturing-yogi-aprelliyanto-detailed-outline-yogi-aprelliyanto.png"/>
+                            <span>Electric Generator</span></li>
+                    </ul>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingSeven">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Specs & More
-                      </button>
-                    </h2>
-                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">        
-                            <p>Year - 2018</p>
-                            <p>Manufacturer - Coachmen RV</p>
-                            <p>Make - Freelander</p>
-                            <p>Model - 31BH Ford 450</p>
-                            <p>Class - Class C Motor Home</p>
-                            <p>Length - 32.0 ft</p>
-                            <p>Height - 131.0 ft</p>
-                            <p>Transmission - Automatic</p>
-                            <p>Cruise control - Yes</p>
-                            <p>Seatbelts - 9</p>
-                            <p>Fuel type - Gas</p>
-                            <p>Slides - 2</p>
-                            <p>Fresh water tank - 50.0 gal</p>
-                            <p>Electrical service - 30 amp</p>
-                            <p>Power steering - Yes</p>
-                            <p>Gross weight - 14,500.0 lbs</p>
-                            <p>Dry weight - 12,728.0 lbs</p>
-                            <p>Cargo weight - 1,772.0 lbs</p>'
-                            <p>Rear-vision camera</p>
-                            <p>Navigation</p>
-                            <p>Fire extinguisher</p>
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li>                    
+                            <img src="https://img.icons8.com/ios/50/null/water-heater.png"/>
+                            <span>Hot and Cold Water Supply</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container specs__container">
+            <div class="accordian__container">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <h3>RV Specifics</h3>
+                          </button>
+                        </h2>
+                        <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-heading" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">        
+                                <p>Year - 2018</p>
+                                <p>Manufacturer - Thor Motor Coach</p>
+                                <p>Make - Freedom Elite</p>
+                                <p>Model - 26HE</p>
+                                <p>Sleeps 6</p>
+                                <p>Class - Class C Motor Home</p>
+                                <p>Length - 26.0 ft</p>
+                                <p>Height - 10.8 ft</p>
+                                <p>Transmission - Automatic</p>
+                                <p>Cruise control - Yes</p>
+                                <p>Seatbelts - 6</p>
+                                <p>Fuel type - Gas</p>
+                                <p>Fuel capacity - 55 gal</p>
+                                <p>Fuel consumption - 12.0 mpg</p>
+                                <p>Dual battery - Yes</p>
+                                <p>Power steering - Yes</p>
+                                <p>Slides - 1</p>
+                                <p>Fresh water tank - 40.0 gal</p>
+                                <p>Electrical service - 30 amp</p>
+                                <p>Power steering - Yes</p>
+                                <p>Gross weight - 20,500.0 lbs</p>
+                                <p>Dry weight - 12,500.0 lbs</p>
+                                <p>Cargo weight - 8,000.0 lbs</p>
+                                <p>Rear-vision camera</p>
+                                <p>Navigation</p>
+                                <p>Fire extinguisher</p>
+                                <p>Engine - Triton / V10
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>        
+    </section>      
+      
     <section id="reviews">
         <div class="container">
-            <h3>Ratings & Reviews</h3>
+            <h3>Ratings & Reviews </h3>
             <div class="post">
-                <h5>Bonnie (<b>5.0/5.0</b>) - 03/23</h5>
+                
+                <h5>Heidy - 01/23</h5>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>      
                 <p class="content">
-                    Marc was a great host! His RV was clean,  well stocked, comfortable and reliable.  
-                    His friendly communication was excellent! Thanks for making our trip the best! 
-                </p>
-                <button onclick="readMore(this)">Read More</button>
+                    Very easy process . Marc was very friendly and explained everything very well</p>
+                    <button onclick="readMore(this)">Read More</button>
+                
             </div>
 
             <div class="post">
-                <h5>Aye (<b>5.0/5.0</b>) - 03/23</h5>
+                <h5>Noa - 11/22</h5>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>      
                 <p class="content">
-                    From the outset Marc and Jon were extremely helpful and accommodating and 
-                    genuinely interested in hearing about the family holiday that we wanted to make. Our
-                    plan was to tour the west of America for 6 weeks starting in Las Vegas 
-                    and finishing near my Cousin in Seattle. Marc and Jon, with some organising 
-                    were able to make our dream come true! We were so pleased. Throughout the 
-                    journey Marc answered many of our questions and helped us way above and 
-                    beyond what we expected. Towards the end of our journey Jon was able to 
-                    change the pick up location of the RV and extended the rent time by one 
-                    day to make it easier for our family to return to the airport. We are so 
-                    grateful for their care and willingness to be flexible. Thank you Marc 
-                    and Jon from the bottom of our hearts, you really made our dream holiday 
-                    the best it could be!
+                    I truly only have great things to say about our experience with Marc and Jon! The RV was clean and well maintained with fresh appliances, cookware, dishes, and everything else we needed on our trip. The level of detail and care they put into having the RV well equipped and ensuring it was comfortable was greatly appreciated! Marc was accommodating with all our requests for pickup and very responsive, and helped us out of a pinch when we ran out of propane gas. The communication with Marc throughout the trip really made the whole experience that much better. Thank you so much!
                 </p>
                 <button onclick="readMore(this)">Read More</button>
             </div>
 
-            <div class="post">
-                <h5>Lynn (<b>5.0/5.0</b>) - 07/22</h5>
-                <p class="content">We had a wonderful first time RV experience renting the RV for 6 nights 
-                    for our honeymoon with two teenage boys. We saw the Grand Canyon,
-                    Monument Valley, Antelope Canyon, Lake Powell, Bryce Canyon and Zion. 
-                    What an amazing week! The RV was well equipped with everything you 
-                    need except for food/drinks. The towels and bedding provided were 
-                    great and we all slept well. It was great having the grill, cooler 
-                    and outdoor chairs as well. Communication with Marc was easy and 
-                    he was responsive with our questions. Since we were first timers 
-                    he explained everything in detail and he sent us a video of how 
-                    to hook up the sewer pipes which was great. I highly recommend 
-                    renting from them. Thanks for a memorable week!
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-
-            <div class="post">
-                <h5>Victoria (<b>5.0/5.0</b>) - 02/21</h5>
-                <p class="content">EXCELLENT! We loved the vehicle and how it performed, the systems were 
-                    well explained and in top notch working condition. The vehicle was well 
-                    appointed with little extras that made our demanding trip that much 
-                    easier and enjoyable. The owners were EXTREMELY understanding and easy 
-                    to deal with, and we are honored to have met them and look forward to 
-                    future meetings. The vehicle itself handles very well and was comfortable 
-                    to drive and live in. We would definitely recommend and will definitely 
-                    rent again!
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-
-            <div class="post">
-                <h5>Maicon (<b>5.0/5.0</b>) - 12/21</h5>
-                <p class="content">We had an amazing experience with this RV! We drove through Hoover Dam, 
-                    Grand Canyon and all Utah national parks and I don't think we can put 
-                    a price of the memories we made with the family. This trip will always 
-                    be remembered and I don't think it would have been the same without the 
-                    RV. It accommodated me, wife, two kids and in-laws and enabled us to 
-                    keep moving along. Marc and Jon (and Dean) were a pleasure to work 
-                    with, they were friendly, easy going and very flexible. They answered 
-                    whenever we had questions and worked with us when we needed help. Would 
-                    definitely do it again with them. Thanks guys!
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-
-            <div class="post">
-                <h5>Andrew (<b>5.0/5.0</b>) - 05/22</h5>
-                <p class="content">We had an amazing trip in this RV! This was our first time using 
-                    an RV and it couldn't have been a better experience.
-    
-                    Pickup was a breeze and Marc provided thorough instructions 
-                    on how everything works and got us on the road quickly. The RV drives great and is in wonderful condition. Our family of five slept very comfortably (especially on the queen memory foam bed in the master!) and there was plenty of room for us to stretch out during the day.
-                    
-                    The kitchen is well stocked with all the essentials 
-                    (pots, pans, spices, salt, pepper, oil, aluminum foil, etc.). 
-                    The camping gear we rented was well worth the fee and is all in great condition. The linens were comfortable and clean and there were plenty to go around.
-                    
-                    During our trip, I had a few questions for Marc and he responded 
-                    quickly and was helpful whenever we needed him.
-                    
-                    We will definitely be renting from Marc and Jon again and highly 
-                    recommend them for their great service!
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-
-            <div class="post">
-                <h5>Dan (<b>5.0/5.0</b>) - 05/22</h5>
-                <p class="content">Marc & Jon were great to deal with. Very communicative through the whole 
-                    process! Everything was as they said and couldn’t have been happier with the experience
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
-
-            <div class="post">
-                <h5>Paul & Rebecca (<b>5.0/5.0</b>) - 06/22</h5>
-                <p class="content">Perfect vacation with Marc & Jon's rental. Everything was as listed! 
-                    More than accommodating :) with many amenities: camping chairs, 
-                    cooler, outdoor grill, the amenities inside the camper were wonderful 
-                    as well. We had excellent communication with Marc and everything 
-                    was more than expected. Thanks for a wonderful trip in your RV- 
-                    5 stars!!! Perfect vote for other renters!
-                </p>
-                <button onclick="readMore(this)">Read More</button>
-            </div>
         </div>
     </section>
 
-    <section id="rates">
-        <div class="container">
-            <h3>Upgrades</h3>
-            <p>Whether it be trailriding or hanging around the campfire, we offer upgrades to enhance your trip!</p>
-            <ul>
-                <p>> $200 – Adult Mountain Bikes (2)</p>
-            
-                <p>> $150 – Youth Mountain Bikes (2)</p>
-                <p>> $60 – Campsite Gear Folding table, 6 folding chairs, Portable Gas Grill, Propane, cooler</p>
-            
-                <p>> $60 – Bedding/Towels for 4 Sheets, blankets, pillows, towels for up to 4 people</p>
-            
-                <p>> $100 – Bedding/Towels for 7 Sheets, blankets, pillows, towels for up to 7 people</p>
-            
-                <p>> $35 – Towels Only
-                    Bath towels, hand towels, wash cloths for up to 7 people </p>
-            </ul>
+    <section id="fees">
         <div class="container">
             <h3>Additional Fees</h3>
-            <p>A <b>security deposit of $1000.00</b>* is required prior to RV pickup. Included in your trip are 500 mi and 20 generator hours. <b>$0.35/mi and $3/hr will be
-                charged for excess mileage and hours generatour hours</b>.</p>
+            <p>A <b>security deposit of $1000.00</b>* is required prior to RV pickup. Included in your trip are 125 miles/day and 20 generator hours. <b>$0.35/mi and $3/hr will be
+                charged for excess mileage and generatour hours</b>.</p>
             <ul>
                 <p>> $100 – Dumping Fee If gray and black water tanks are not fully dumped upon return, this fee will be assessed</p>
             
@@ -541,19 +378,16 @@
             
                 <p>> $200 – Excess cleaning fee This fee will be assessed if the RV is returned excessively dirty (i.e. mud, stains, trash)</p>
     
-                <p>> $150 per night – Festival Fee
-            Additional fee per night for all festivals</p>
-    
                 <p>> $25 – Fuel Fill $25 fee plus cost of fuel if not returned with same fuel level as departure</p>
     
                 <p>> $100 – Late Return Fee
                 Drop off is by 3:00pm - if you need to drop it off later than that, this fee will be assessed.</p>
     
                 <p>> $350 – Smoking Fee
-                Absolutely no smoking in the rig. If there is evidence of smoking or a smokey smell, this fee will be assessed.</p>
+                Absolutely no smoking in the RV. If there is evidence of smoking or a smokey smell, this fee will be assessed.</p>
             </ul>
             <div>
-            * Hold will be placed on your card prior to RV Pickup and released after RV return - minus any damage charges.
+                <p>* Hold will be placed on your card prior to RV Pickup and released after RV return - minus any damage charges.</p>
             </div>
         </div>
     </section>
@@ -581,9 +415,8 @@
     <!-- Footer start -->
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
-    crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 
 </body>

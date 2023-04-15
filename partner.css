@@ -48,7 +48,7 @@
 }
 
 .body__text{
-    width:75%;
+    width:100%;
     margin:auto;
     padding-top: 80px;
 }
@@ -92,7 +92,7 @@ body h5{
 body h3{
     font-style: italic;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 300;
 }
 
@@ -104,4 +104,55 @@ body p{
 
 #lease{
     padding-bottom: 100px;
+}
+
+.partner__image{
+    width: 100%;
+    padding-top: 50px;
+}
+
+/*
+    @media (min-width:544px) {}
+    @media (min-width:768px) {}
+    @media (min-width:992px) {}
+    @media (min-width:1200px) {}
+    @media (min-width:1400px) {}
+    @media (min-width:1600px) {}
+*/
+
+@media (min-width:1200px) and (max-width:1600px){
+    body h3{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .body__text{
+        width:75%;
+    }
+}
+
+@media (min-width:993px) and (max-width:1199px){
+    body h3{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .body__text{
+        width:75%;
+    }
+}
+}
+
+@media (min-width:200px) and (max-width:554px){
+    body h3{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .body__text{
+        padding: 20px;
+    }
 }
