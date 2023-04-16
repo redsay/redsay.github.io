@@ -46,13 +46,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 300;
+    background-color: yellow;
 }
 
 .body__text{
     margin:auto;
     font-family: 'Roboto', sans-serif;
     padding-top: 20px;
-    
+    background-color: yellow;
+    color: black;    
+
 }
 
 @media (max-width:544px){
@@ -115,13 +118,7 @@ body p{
     padding-bottom: 100px;
 }
 
-.events__container{
-    position: relative;
-    margin-top: 60px;
-    padding-bottom: 40px;
-    justify-content: center;
-    background-color: black;
-}
+
 
 .booking__container{
     padding-top: 60px;
@@ -143,16 +140,18 @@ body p{
 }
 
 .events__heading-container{
-    position: absolute;
-    top: 25px;
-    left: 100px;
+    /*position: absolute;*/
+    /*top: 25px;*/
+    /*left: 70px;*/
     color:white;
     align-items: center;
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 
 .events__content-row{
-    color: black;
+    color: white;
+    align-items: center;
+    background-color: ;
 }
 .events__content-row ul{
     position: relative;
@@ -160,22 +159,38 @@ body p{
     top: 45px;
 }
 
-.events__header-row{
+.events__header-row{ 
     align-items: center;
     height: 300px;
 }
+
+/*
 .events__content-row li{
     position: relative;
-    right:15px;
-    bottom: 35px;
+    left:30px;
+    top: 30px;
 }
+*/
+
 .content__column{
     position: relative;
     text-align: center;
-    background-color: #FBFCF8;
     left:200px;
     top:45px;
     width:300px;
     height: 250px;
 }
 
+.events__container{
+    position: relative;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    justify-content: center;
+    background-color: black;
+}
+
+.booking__widget{
+   margin-top: 40px;
+}
