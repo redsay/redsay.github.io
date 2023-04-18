@@ -39,24 +39,8 @@
     font-size: 52px;
     font-weight: 500;
 }
-.body__header{
-    margin: auto;
-    padding-top: 150px;
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    background-color: yellow;
-}
 
-.body__text{
-    margin:auto;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
-    background-color: yellow;
-    color: black;    
 
-}
 
 @media (max-width:544px){
     .font__logo{
@@ -125,44 +109,354 @@ body p{
     padding-bottom: 100px;
 }
 
-.explore__button{
-    position: relative;
-    text-align: center;
-    padding-top: 40px;
+
+
+
+@media (min-width:1201px){
+
+    .body__header{
+        margin: auto;
+        padding-top: 150px;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+
+    .events__container .body__text{
+        margin:auto;
+        padding-top:90px;
+        background-color: yellow;
+        color: black;
+    }
+
+    .events__content-row{
+        color: white;
+        padding-top: 0px;
+    }
+
+    .events__header-row{ 
+        align-items: center;
+        height: 300px;
+    }
+
+    .events__container{
+        position: relative;
+        margin-top: 60px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        justify-content: center;
+        background-color: black;
+        
+    }
+
+    .booking__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+    .booking__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+   
 }
-.button__text{
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+
+@media (min-width:993px) and (max-width:1200px){
+
+    .body__header{
+        margin: auto;
+        padding-top: 200px;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 38px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+
+    .events__container{
+        position: relative;
+        margin-top: 60px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        justify-content: center;
+        background-color: black;
+        height: 450px;
+    }
+
+
+    .events__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:28px;
+        font-weight: 300;
+        padding-right: 35px;
+        padding-top: 125px;
+        background-color: yellow;
+        color: black;
+    }
+
+    .events__content-row{
+        color: white;
+        padding-right: 50px;
+    }   
+
+    .events__header-row{ 
+        align-items: center;
+        height: 300px;
+    }
+
+    .booking__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:28px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+    .booking__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:22px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+}
+
+@media (min-width:544px) and (max-width:992px){
+    
+    .body__header{
+        margin: auto;
+        padding-top: 200px;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+    
+    .events__container{
+        position: relative;
+        margin-top: 60px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        justify-content: center;
+        background-color: black;
+        height: 525px;
+    }
+
+    .events__header-row{ 
+        align-items: center;
+        height: 30px;
+    }
+
+
+    .events__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:28px;
+        font-weight: 300;
+        padding-right: 35px;
+        background-color: yellow;
+        color: black;
+    }
+
+    .events__content-row{
+        color: white;
+        padding-right: 80px;
+    }
+    .booking__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:28px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+    .booking__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:22px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+}
+
+@media (min-width:390px) and (max-width:543px){
+
+    .body__header{
+        margin: auto;
+        padding-top: 100px;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+    .events__container{
+        position: relative;
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        padding-left: 40px;
+        justify-content: center;
+        background-color: black;
+        height: 545px;
+        
+    }
+
+    .events__header-row{ 
+        padding-top: 20px;
+        align-items: center;
+        height: 85px;
+    }
+    
+    .events__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:28px;
+        padding-right: 35px;
+        background-color: yellow;
+        color: black;
+    }
+
+
+    .events__content-row{
+        position: relative;
+        bottom: 30px;
+        color: white;
+        padding-right: 80px;
+    }
+
+    .events__content-row p{
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .booking__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+    .booking__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:20px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+
+
+}
+
+@media (min-width:200px) and (max-width:389px){
+
+    .body__header{
+        margin: auto;
+        padding-top: 120px;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        background-color: yellow;
+    }
+
+    .events__container{
+        position: relative;
+        margin-top: 60px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 40px;
+        justify-content: center;
+        background-color: black;
+        height: 925px;
+        
+    }
+
+    .events__header-row{ 
+        padding-top: 30px;
+        align-items: center;
+        height: 80px;
+    }
+
+    .events__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:22px;
+        font-weight: 300;
+        padding-right: 35px;
+        background-color: yellow;
+        color: black;
+    }
+
+    .events__content-row{
+        color: white;
+        padding-right: 80px;
+    }
+
+    .events__content-row p{
+        font-size: 16px;
+        color: white;
+    }
+
+    .booking__container .body__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:22px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+    .booking__text{
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size:18px;
+        font-weight: 300;
+        background-color: yellow;
+
+    }
+
+
 }
 
 .events__heading-container{
-    /*position: absolute;*/
-    /*top: 25px;*/
-    /*left: 70px;*/
     color:white;
     align-items: center;
-    /*max-width: 400px;*/
 }
 
 .events__content-row{
     color: white;
     align-items: center;
-    background-color: ;
 }
+
 .events__content-row ul{
     position: relative;
     list-style: none;
     top: 45px;
 }
 
-.events__header-row{ 
-    align-items: center;
-    height: 300px;
-}
+
 
 /*
 .events__content-row li{
@@ -181,15 +475,7 @@ body p{
     height: 250px;
 }
 
-.events__container{
-    position: relative;
-    margin-top: 60px;
-    padding-top: 40px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    justify-content: center;
-    background-color: black;
-}
+
 
 .booking__widget{
    margin-top: 40px;

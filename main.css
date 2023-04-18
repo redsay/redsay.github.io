@@ -115,13 +115,13 @@ hero section
     box-shadow: -.25em 0 0 white, +.5em 0 0 #c98d26;
   }
   
-#hero_id{
+#hero__section{
     position:relative;
     background-color: whitesmoke/*var(--bs-body-bg)*/;
     overflow:hidden;
 }
 
-#carouselExampleIndicators{
+#hero__carousel{
     position: relative;
 }
 
@@ -192,12 +192,12 @@ hero section
     object-fit: contain;
 }
 
-#hero_id .carousel-inner{
+#hero__section .carousel-inner{
     position: relative;
     top: 35px;
 }
 
-#hero_id .carousel-item{
+#hero__section .carousel-item{
     position:relative;
     height: 100%;
     z-index: 1;
