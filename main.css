@@ -166,8 +166,26 @@ hero section
         text-align: center;
         z-index: 2;
         color: white;
+        font-size: 22px;
     }
 
+    .carousel-item img{
+        position: relative;
+        width: 200%;
+        height: auto;
+        filter: grayscale(25%);
+        object-fit: contain;
+    }    
+}
+@media  (min-width:545px){
+
+    .carousel-item img{
+        position: relative;
+        width: 100%;
+        height: auto;
+        filter: grayscale(25%);
+        object-fit: contain;
+    }
 }
 
 
@@ -179,13 +197,7 @@ hero section
     z-index:1;
 }
 
-.carousel-item img{
-    position: relative;
-    width: 100%;
-    height: auto;
-    filter: grayscale(25%);
-    object-fit: contain;
-}
+
 
 #hero__section .carousel-inner{
     position: relative;
